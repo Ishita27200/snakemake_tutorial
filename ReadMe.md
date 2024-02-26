@@ -1,7 +1,7 @@
 # Snakemake Tutorial
 
 
-## - Snakemake Installation
+## Snakemake Installation
 ```
    mamba create -c conda-forge -c bioconda -n bioinfo
    mamba install snakemake

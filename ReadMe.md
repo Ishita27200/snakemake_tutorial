@@ -49,7 +49,7 @@ Download the datasets from `TISCH2` and categorize them under their respective d
    snakemake -n
    ```
 
-5. **Snakemake command to run**
+4. **Snakemake command to run**
    
    ```
    snakemake --cores 1 -j1

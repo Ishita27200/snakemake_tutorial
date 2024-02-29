@@ -53,10 +53,16 @@ Download the datasets from `TISCH2` and categorize them under their respective d
    
    ```
    snakemake --cores 1 -j1
+   snakemake --lint
    ```
    - Note: Number of `cores` can be changed according to the file size and processing time.
    
+## Creation of DAG using GraphViz
 
+```
+snakemake --dag > workflow.dag
+dot -Tpdf workflow.dag > workflow.pdf
+```
 
 ## Conclusion
 This tutorial covers the basic usage of Snakemake. This will result in generation of different markers and vlnplots for various datasets. 

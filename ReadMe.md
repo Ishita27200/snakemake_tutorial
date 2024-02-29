@@ -44,7 +44,12 @@ Download the datasets from `TISCH2` and categorize them under their respective d
    ```
    Replace `"snakemake/workflow/"` with your directory path.
 
-3. **Snakemake command to run**
+3. **Snakemake dry run**
+   ```
+   snakemake -n
+   ```
+
+5. **Snakemake command to run**
    
    ```
    snakemake --cores 1 -j1
